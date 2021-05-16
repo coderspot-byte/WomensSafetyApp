@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#75115A"
+    tools:context=".Splash">
+    <ImageView
+        android:id="@+id/imglgo2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="200dp"
+        android:src="@mipmap/women" />
+
+    <TextView
+        android:id="@+id/big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHIELD"
+        android:textColor="#826AAC"
+        android:textSize="70sp"
+        android:layout_gravity="center_horizontal"
+
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/lottieAnimationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/lottieAnimationView"
+        app:layout_constraintVertical_bias="0.828" />
+
+    <TextView
+        android:id="@+id/small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Safety First"
+        android:textColor="#CA97BD"
+        android:layout_marginLeft="200dp"
+        android:textSize="14sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.724"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/big"
+        app:layout_constraintVertical_bias="0.0" />
+</LinearLayout>
